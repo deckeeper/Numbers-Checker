@@ -1,0 +1,22 @@
+<html>
+<link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+<body onkeypress="handleEnter(event)">
+<center>
+	<h1 style="">Numbers Checker</h1>
+	<p>Check if there are Numbers in a text input</p>
+	<br>
+	<label>Insert the length of the Number you wanna search for(Leave it blank if you don't want to to reduce your search results)</label>
+	<input type="text" id="length"/>
+	<br><br><br>
+	<textarea rows="20" cols="100" name="comment" id="myTextArea"></textarea>
+	<br><br><br>
+	<button type="button" id="click" onclick="findnumbers()" class="button">Find Numbers</button>
+	<br><br><br>
+	<textarea rows="10" cols="100" id="result">Result</textarea>
+</center>
+
+</body>
+</html>
+
+<script src="scripts.js"></script>
